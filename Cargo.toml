@@ -7,8 +7,9 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-imgui = "0.2.1"
-imgui-winit-support = { version = "0.2.1", default-features = false, features = ["winit-20"] }
+imgui = "*"
+#imgui-winit-support = { version = "0.2.1", default-features = false, features = ["winit-20"] }
+#imgui-winit-support = { git = "https://github.com/Gekkio/imgui-rs/blob/master/imgui-winit-support/" }
 imgui-wgpu = { git = "https://github.com/Yatekii/imgui-wgpu-rs" }
-winit = "0.20.0-alpha5"
+winit = "0.20.0-alpha4"
 wgpu = "0.4.0"
