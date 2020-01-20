@@ -1,0 +1,14 @@
+[package]
+name = "imgui-wgpu-test"
+version = "0.1.0"
+authors = ["Adam Nemecek <adamnemecek@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+imgui = "0.2.1"
+imgui-winit-support = { version = "0.2.1", default-features = false, features = ["winit-20"] }
+imgui-wgpu = { git = "https://github.com/Yatekii/imgui-wgpu-rs" }
+winit = "0.20.0-alpha5"
+wgpu = "0.4.0"
